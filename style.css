@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+   --fonte1: 'Abril Fatface', cursive;
+   --fonte2: 'Sriracha', cursive;
+   --fonte3: 'Pacifico', cursive;
+}
+
+* 
+body{
+   font-family: 'Montserrat', sans-serif;
+   min-width: 320px;
+   max-width: 1800px;
+   margin: 0 auto;
+   padding: 10px;
+   box-sizing: border-box;
+   border: 15px solid #000;
+   border-radius: 10px;
+   text-decoration: none;
+   background-color: rgb(250, 248, 248);
+   font-family: 'Sriracha', cursive;
+}
+
+h1{
+   font-family: var(--fonte1);
+   font-weight: 150;
+   line-height: 20px;
+   margin: 0 auto;
+   padding: 10px;
+   box-sizing: border-box;
+   border: 10px solid rgb(253, 253, 253);
+   border-radius: 10px;
+   padding: 10px;
+}
+
+h2{
+   font-size: 56px;
+   line-height: 10px;
+   color:rgb(249, 249, 250);
+   flex-direction: column;
+   line-height: 5px;
+}
+
+a{
+   font-size: 26px;
+   line-height: 10px;
+   color:rgb(0, 0, 0);
+   font-family: var(--fonte2);
+}
+a:hover{
+   color:rgb(253, 253, 253);
+   transition: 0.3s all;
+}
+
+#borda1 {
+   border: 5px solid rgb(253, 253, 253);
+   padding: 10px;
+   border-radius: 15px;
+}
+
+#borda2 {
+   border: 5px solid rgb(253, 253, 253);
+   padding: 10px;
+   border-radius: 15px;
+}
+
+#borda3 {
+   border: 5px solid rgb(253, 253, 253);
+   padding: 10px;
+   border-radius: 15px;
+}
+#borda4 {
+   border: 5px solid rgb(253, 253, 253);
+   padding: 10px;
+   border-radius: 15px;
+}
+
+p{
+   font-size: 35px;
+   line-height: 35px;
+   max-width: 500px;
+   color:rgb(0, 0, 0);
+   font-family: var(--fonte2);
+}
+
+header{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   color:#000
+}
+
+li{
+   display: inline-block;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin: 5px;
+}
+
+main{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: flex-end;
+   line-height: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: var(--fonte3)
+}
+
+aside{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   gap: 10px 20px;
+   row-gap: 10px;
+   column-gap: 20px;
+   padding: 2px;
+   box-sizing: border-box 1800px;
+}
+
+.conteudo-escrito{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   padding: 2px;
+   border: 10px solid rgb(253, 253, 253);
+   border-radius: 15px;
+   font-size: 30px;
+   line-height: 30px;
+}
+
+footer{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 20px;
+   color:#000;
+   font-size: 20px;
+}
+.cadastro-input{
+   margin: 15px;
+   padding: 10px;
+}
